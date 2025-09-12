@@ -3,7 +3,9 @@
   "projectId": "de8c0f0c-0d45-4754-ace0-0cabe2adf1d8",
   "description": "Blank Process",
   "main": "Main.xaml",
-  "dependencies": {},
+  "dependencies": {
+    "UiPath.System.Activities": "[25.8.0]"
+  },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
