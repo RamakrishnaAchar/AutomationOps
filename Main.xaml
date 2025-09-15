@@ -253,7 +253,7 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="737.2,1264" sap2010:WorkflowViewState.IdRef="Sequence_6">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="737.2,1386.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="input" />
       <Variable x:TypeArguments="sd:DataTable" Name="ExcelDataTable" />
@@ -263,13 +263,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="502.4,1240.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
+    <Sequence sap:VirtualizedContainerService.HintSize="502.4,1363.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="468.8,1157.6" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="468.8,1280" sap2010:WorkflowViewState.IdRef="TryCatch_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -277,7 +277,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <TryCatch.Try>
-          <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="467.2,645.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="467.2,768" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="sd:DataTable" Name="dtcsv" />
             </Sequence.Variables>
@@ -289,6 +289,7 @@
             <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="433.6,122.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="hello" />
             <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="433.6,122.4" sap2010:WorkflowViewState.IdRef="WriteLine_6" Text="hello" />
             <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="433.6,122.4" sap2010:WorkflowViewState.IdRef="WriteLine_8" Text="hello" />
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="433.6,122.4" sap2010:WorkflowViewState.IdRef="WriteLine_9" Text="hello" />
             <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_2">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[input]</OutArgument>
